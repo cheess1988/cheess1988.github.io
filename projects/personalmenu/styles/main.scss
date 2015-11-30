@@ -1,0 +1,99 @@
+$colorBg: #262e37;
+$colorBorder: #181e26;
+$colorMenu: #383d49;
+$colorMenuHover: #cd3333;
+$colorText: #c9d1e3;
+$colorTextSubMenu: #798ea1;
+
+body {
+	font-family: Verdana;
+	background: url("../images/bg.png");
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin: -250px 0 0 -200px;
+	.menu {
+		width: 250px;
+		margin: 10% auto;
+		border: 1px solid $colorBorder;
+		border-radius: 15px;
+		background-color: $colorMenu;
+		box-shadow: 0 0 20px black;
+		overflow: hidden;
+		.foto {
+			width: 80px;
+			height: 80px;
+			background: gray;
+			margin: 10px 20px 10px 10px;
+			float: left;
+		}
+		h1 {
+			font-style: italic;
+			padding-top: 5px;
+		}
+		> ul {
+			> li {
+				line-height: 27px;
+				color: $colorText;
+				text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+				font-size: 16px;
+				border-bottom: 1px solid $colorBorder;
+				padding: 10px 0 10px 0;
+				&:last-child {
+					border-bottom: none;
+				}
+				&:hover {
+					background-color: $colorMenuHover;
+					cursor: pointer;
+				}
+				a {
+					img {
+						margin: -2px 10px;
+					}
+					span {
+						margin-left: 85px;
+						text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.4);
+						color: $colorText;
+						border-radius: 3px;
+						box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+						font-size: 14px;
+						background-color: #464c5a;
+						padding: 6px 8px;
+						margin-bottom: 5px;
+					}
+				}
+				ul {
+					background-color: $colorBg;
+					margin: 10px 0 -10px;
+					box-shadow: inset 0px 2px 2px black;
+					li {
+					border-bottom: none;
+					background: url("..//images/iconArrowMenu.png") no-repeat 0px 50%;
+					padding: 5px 0 5px 20px;
+					margin-left: 20px;
+					text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+					color: $colorTextSubMenu;
+					font-size: 13px;
+						a {
+							&:hover {
+							text-decoration: underline;
+							color: $colorMenuHover;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
