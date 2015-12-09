@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PhoneBOOK</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body ng-app="phoneBook" ng-controller="phoneBookCtrl">
+	<div class="container-fluid">
+<!-- Top Menu -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-xs-6">
+				<nav class="navbar navbar-inverse">
+					<div class="col-md-6 col-xs-6">
+						<a class="navbar-brand" href="#">PhoneBOOK</a>
+					</div>
+					<div class="col-md-6 col-xs-6">
+						<input type="search" class="form-control" placeholder="search contact...">
+					</div>
+				</nav>
+			</div>
+		</div>
+<!-- Top Menu -->
+<!-- Contact Add -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-xs-6">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label for="name" class="col-sm-4 control-label">Contact name</label>
+						<div class="col-md-6 col-xs-6">
+							<input ng-model="name" type="text" class="form-control" id="name" placeholder="enter name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="phone" class="col-sm-4 control-label">Phone number</label>
+						<div class="col-md-6 col-xs-6">
+							<input ng-model="number" type="tel" class="form-control" id="phone" placeholder="enter phone">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email" class="col-sm-4 control-label">Email</label>
+						<div class="col-md-6 col-xs-6">
+							<input ng-model="email" type="email" class="form-control" id="email" placeholder="enter email">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-12 text-center">
+							<button ng-click="add" type="submit" class="btn btn-success">Add contact</button>
+							<button ng-click="add" type="submit" class="btn btn-warning">Save contact</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+<!-- Contact Add-->
+<!-- Contact List -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-xs-6">
+				<table class="table table-striped table-hover table-responsive">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Contact name</th>
+							<th>Phone number</th>
+							<th>Email</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="contact in phonebook">
+							<td>{{$index + 1}}</td>
+							<td>{{contact.name}}</td>
+							<td>{{contact.number}}</td>
+							<td>{{contact.email}}</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+<!-- Contact List -->
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+<script>
+	angular.module('phoneBook', [])
+		.controller('phoneBookCtrl', function($scope) {
+		$scope.phonebook = [{
+			name: 'Dmitriy Pristupa',
+			number: '+1234567890',
+			email: 'email@email.com'
+		}]
+	});
+</script>
+</body>
+</html>
