@@ -1,6 +1,21 @@
+body {
+	padding-top: 320px;
+}
 input[placeholder="search contact..."] {
 	margin: 7px 0 0 0;
 }
+input[type="file"] {
+	margin: 6px 0 6px 0;
+}
 nav {
 	border-radius: 0 0 10px 10px !important;
+}
+td {
+	vertical-align: middle !important;
+}
+th {
+	text-align: center;
+}
+.navbar-fixed-top {
+	background: white;
 }
