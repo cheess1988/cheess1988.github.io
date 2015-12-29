@@ -1,6 +1,9 @@
 var phoneBook = angular.module('phoneBook', ['naif.base64'])
 	.controller('phoneBookCtrl', ['$scope', function($scope) {
 		$scope.currentId = -1;
+		$scope.name = '';
+		$scope.number = '';
+		$scope.email = '';
 		$scope.phonebook = [{
 			name: 'Dmitriy Pristupa',
 			number: '+1234567890',
@@ -62,16 +65,18 @@ var phoneBook = angular.module('phoneBook', ['naif.base64'])
 			photo: 'img/profile.jpg'
 		}];
 		$scope.addContact = function() {
-			if($scope.name !== '' && $scope.phone !== '') {
+			if($scope.name !== '' && $scope.number !== '') {
 				$scope.phonebook.push({
 					name: $scope.name,
 					number: $scope.number,
 					email: $scope.email,
 					photo: $scope.photo
 				});
+				$scope.email = '';
 				$scope.name = '';
 				$scope.number = '';
-				$scope.email = '';
+			} else {
+				alert("Add the required fields *");
 			}
 		};
 		$scope.saveContact = function() {
@@ -79,9 +84,11 @@ var phoneBook = angular.module('phoneBook', ['naif.base64'])
 				$scope.phonebook[$scope.currentId].name = $scope.name;
 				$scope.phonebook[$scope.currentId].number = $scope.number;
 				$scope.phonebook[$scope.currentId].email = $scope.email;
+				$scope.phonebook[$scope.currentId].photo = $scope.photo;
 				$scope.name = '';
 				$scope.number = '';
 				$scope.email = '';
+				$scope.photo = '';
 				$scope.currentId = -1;
 			}
 		};
