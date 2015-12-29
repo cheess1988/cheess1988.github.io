@@ -1,5 +1,5 @@
-var phoneBook = angular.module('phoneBook', [])
-	.controller('phoneBookCtrl', function($scope) {
+var phoneBook = angular.module('phoneBook', ['naif.base64'])
+	.controller('phoneBookCtrl', ['$scope', function($scope) {
 		$scope.currentId = -1;
 		$scope.phonebook = [{
 			name: 'Dmitriy Pristupa',
@@ -62,7 +62,7 @@ var phoneBook = angular.module('phoneBook', [])
 			photo: 'img/profile.jpg'
 		}];
 		$scope.addContact = function() {
-			if($scope.name !== '') {
+			if($scope.name !== '' && $scope.phone !== '') {
 				$scope.phonebook.push({
 					name: $scope.name,
 					number: $scope.number,
@@ -94,4 +94,4 @@ var phoneBook = angular.module('phoneBook', [])
 		$scope.deleteContact = function(currentId) {
 			$scope.phonebook.splice(currentId, 1);
 		};
-	})
+	}]);
