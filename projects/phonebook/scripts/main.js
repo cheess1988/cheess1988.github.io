@@ -76,7 +76,7 @@ var phoneBook = angular.module('phoneBook', ['naif.base64'])
 				$scope.name = '';
 				$scope.number = '';
 			} else {
-				alert("Add the required fields *");
+				alert("Add all the required fields *");
 			}
 		};
 		$scope.saveContact = function() {
