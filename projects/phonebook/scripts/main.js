@@ -16,54 +16,63 @@ var phoneBook = angular.module('phoneBook', ['naif.base64'])
 			name: 'John Doe',
 			number: '+ 1234567890',
 			email: 'email@email.com',
+			date: '25 April 1988',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 2',
 			number: '+ 2222222222',
 			email: 'test@test.com',
+			date: '05 April 1998',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 3',
 			number: '+ 3333333333',
 			email: 'test@test.com',
+			date: '15 April 2000',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 4',
 			number: '+ 4444444444',
 			email: 'test@test.com',
+			date: '15 October 1988',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 5',
 			number: '+ 5555555555',
 			email: 'test@test.com',
+			date: '15 May 1988',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 6',
 			number: '+ 6666666666',
 			email: 'test@test.com',
+			date: '15 May 2000',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 7',
 			number: '+ 7777777777',
 			email: 'test@test.com',
+			date: '05 April 1964',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 8',
 			number: '+ 8888888888',
 			email: 'test@test.com',
+			date: '15 May 1978',
 			photo: 'img/profile.jpg'
 		},
 		{
 			name: 'John Doe 9',
 			number: '+ 9999999999',
 			email: 'test@test.com',
+			date: '15 April 2015',
 			photo: 'img/profile.jpg'
 		}];
 		$scope.addContact = function() {

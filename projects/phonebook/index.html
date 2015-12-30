@@ -9,7 +9,7 @@
 <body ng-app="phoneBook" ng-controller="phoneBookCtrl">
 	<div class="container-fluid col-md-8 col-md-offset-2 text-center">
 <!-- Top Block -->
-		<div class="navbar-fixed-top col-md-8 col-md-offset-2">
+		<div class="navbar-fixed-top col-md-8 col-md-offset-2 shadow">
 <!-- Top Menu -->
 			<div class="row">
 				<div class="">
@@ -91,7 +91,7 @@
 						<tr ng-repeat="contact in phonebook | filter:search">
 							<td>{{$index + 1}}</td>
 							<td><img ng-src="{{contact.photo}}" alt="" width="50px"></td>
-							<td>{{contact.name}}</td>
+							<td><b>{{contact.name}}</b></td>
 							<td>{{contact.date | date: "dd MMMM yyyy"}}</td>
 							<td>{{contact.number}}</td>
 							<td>{{contact.email}}</td>
