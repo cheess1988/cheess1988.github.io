@@ -927,6 +927,7 @@ img {
 	}
 	.news {
 		width: 100%;
+		border: none;
 	}
 	.news input {
 		margin: 0 auto;
@@ -941,7 +942,8 @@ img {
 		text-align: center;
 	}
 	.account, .shipping, .links, .socials {
-		padding: 0 50px;
+		padding: 0 33px;
+		border: none;
 	}
 }
 
