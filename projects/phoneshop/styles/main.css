@@ -599,9 +599,56 @@ img {
     margin-top: 10px;
     width: 160px; }
 
+  .sidebar h3 {
+    padding: 16px 0px 16px 20px; }
+
   .sidebar ul a li {
     background: white url("..//images/listImage.png") no-repeat 15px 50%;
-    padding: 16px 30px; } }
+    padding: 16px 0px 16px 30px; }
+
+  .whatsHot ul a li {
+    background: white url("..//images/listPhone.png") no-repeat 0px 50%;
+    padding: 25px 0px 25px 60px; }
+
+  .deals {
+    margin-top: 10px;
+    width: 580px; }
+
+  .dealsPhone .dealsImg {
+    width: 580px; }
+
+  .dealsPhone .dealsImg img {
+    margin: 35px 30px 10px; }
+
+  .dealsPhone .dealsButton {
+    width: 580px; }
+
+  .dealsPhone .dealsButton div {
+    margin: 15px 40px 10px; }
+
+  .products {
+    width: 550px; }
+
+  .featured {
+    margin-top: 10px; }
+
+  .allProducts .product {
+    margin: 0px 4px 10px; }
+
+  .allProducts div {
+    width: 180px; }
+
+  .allProducts .product div {
+    width: 160px; }
+
+  .allProducts .product div span {
+    top: 19px; }
+
+  .buttonCart a, .dealsPhone .dealsButton div a, .allProducts .product div a, .dealsPhone .dealsButton div a, .allProducts .product div a {
+    padding: 0; }
+
+  .buttonCart a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3) {
+    padding: 5px 0px; } }
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
