@@ -25,7 +25,7 @@ img {
 
 .bgFooter {
   width: 100%;
-  background: url(..//images/bgFooter.png) repeat-x;
+  background: #007472 url(..//images/bgFooter.png) repeat-x;
   position: fixed;
   left: 0;
   bottom: 0px; }
@@ -741,7 +741,25 @@ img {
     padding: 3px; }
 
   .buttonCart a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3) {
-    padding: 8px 18px; } }
+    padding: 8px 18px; }
+
+  .news {
+    width: 100%; }
+
+  .news input {
+    margin: 0 auto; }
+
+  .news a {
+    display: inline-block;
+    float: none;
+    position: relative;
+    top: 5px;
+    left: 130px;
+    width: 170px;
+    text-align: center; }
+
+  .account, .shipping, .links, .socials {
+    padding: 0 50px; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 

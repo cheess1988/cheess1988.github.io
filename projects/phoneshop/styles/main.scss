@@ -1,5 +1,5 @@
 $bgHeader: url(..//images/bgHeader.png);
-$bgFooter: url(..//images/bgFooter.png) repeat-x;
+$bgFooter: #007472 url(..//images/bgFooter.png) repeat-x;
 $bgGradient: linear-gradient(to top, #ffffff 0%, #000000 50%) no-repeat;
 $titleColor: linear-gradient(to top, #007472 0%, #008e8b 50%);
 $buttonOrange: linear-gradient(to top, #e5a61f 0%, #fbb829 50%);
@@ -924,6 +924,24 @@ img {
 	}
 	.buttonCart a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3) {
 	    padding: 8px 18px;
+	}
+	.news {
+		width: 100%;
+	}
+	.news input {
+		margin: 0 auto;
+	}
+	.news a {
+		display: inline-block;
+		float: none;
+		position: relative;
+		top: 5px;
+		left: 130px;
+		width: 170px;
+		text-align: center;
+	}
+	.account, .shipping, .links, .socials {
+		padding: 0 50px;
 	}
 }
 
