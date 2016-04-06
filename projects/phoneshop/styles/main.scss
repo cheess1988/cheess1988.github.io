@@ -756,6 +756,7 @@ img {
 @media screen and (max-width : 992px) {
 	.container {
 		width: 750px;
+		max-width: 962;
 	}
 	.mainMenu ul li a {
 		padding: 30px 17px;
@@ -833,7 +834,42 @@ img {
 
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
-
+	.container {
+		width: 470px;
+	}
+	.logo {
+	    margin-top: 28px;
+	}
+	.cart {
+		padding-top: 35px;
+	}
+	.topMenu {
+		padding-top: 70px;
+		right: 70px;
+	}
+	.login {
+		right: 0;
+	    top: 10px;
+	}
+	.mainMenu ul li {
+		padding: 20px 0px;
+		border-right: none;
+	}
+	.mainMenu ul li a {
+		padding: 20px 11px;
+	}
+	.mainMenu .search form {
+		float: none;
+	    top: -91px;
+	    right: 0;
+	}
+	.mainMenu .search form input {
+		width: 250px;
+	}
+	.mainMenu .search form input:focus {
+		transition: none;
+		width: 250px;
+	}
 }
 
 /* Extra Small Devices, Phones */

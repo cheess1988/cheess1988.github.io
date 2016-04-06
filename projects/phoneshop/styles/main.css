@@ -576,7 +576,8 @@ img {
 /* Medium Devices, Desktops */
 @media screen and (max-width: 992px) {
   .container {
-    width: 750px; }
+    width: 750px;
+    max-width: 962; }
 
   .mainMenu ul li a {
     padding: 30px 17px; }
@@ -650,6 +651,42 @@ img {
   .buttonCart a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3) {
     padding: 5px 0px; } }
 /* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 470px; }
+
+  .logo {
+    margin-top: 28px; }
+
+  .cart {
+    padding-top: 35px; }
+
+  .topMenu {
+    padding-top: 70px;
+    right: 70px; }
+
+  .login {
+    right: 0;
+    top: 10px; }
+
+  .mainMenu ul li {
+    padding: 20px 0px;
+    border-right: none; }
+
+  .mainMenu ul li a {
+    padding: 20px 11px; }
+
+  .mainMenu .search form {
+    float: none;
+    top: -91px;
+    right: 0; }
+
+  .mainMenu .search form input {
+    width: 250px; }
+
+  .mainMenu .search form input:focus {
+    transition: none;
+    width: 250px; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 
