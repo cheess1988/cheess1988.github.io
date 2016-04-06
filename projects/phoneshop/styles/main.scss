@@ -20,6 +20,11 @@ hr {
 	margin: 0px;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .clearfix:after {
 	content: "";
 	display: block;
@@ -267,13 +272,13 @@ hr {
 				border-right: none;
 			}
 			&:hover:after {
-					display: block;
-					position: absolute;
-					bottom: 0;
-					left: 40%;
-					content: "";
-					border: 8px solid transparent;
-					border-bottom: 8px solid white;
+				display: block;
+				position: absolute;
+				bottom: 0;
+				left: 40%;
+				content: "";
+				border: 8px solid transparent;
+				border-bottom: 8px solid white;
 			}
 			a {
 				color: white;
@@ -452,7 +457,7 @@ hr {
 }
 
 .whatsHot {
-		ul {
+	ul {
 		a {
 			li {
 				background: white url("..//images/listPhone.png") no-repeat 0px 50%;
@@ -591,10 +596,10 @@ hr {
 		border: 1px solid lightgray;
 		background: linear-gradient(to top, #e9e7e7 0%, #e9e7e7 25%, white 35%, #f3f3f3 45%, white 99%, white 100%);
 		&:hover {
-				transform: scale(1.1);
-				transition: 1s;
-				cursor: pointer;
-			}
+			transform: scale(1.1);
+			transition: 1s;
+			cursor: pointer;
+		}
 		img {
 			margin-top: 10px;
 		}
@@ -707,10 +712,10 @@ hr {
 		li {
 			display: inline-block;
 			margin-right: 10px;
-				&:hover {
-					transform: rotate(360deg);
-					transition: 1s;
-				}
+			&:hover {
+				transform: rotate(360deg);
+				transition: 1s;
+			}
 		}
 	}
 }
@@ -745,4 +750,51 @@ hr {
 			}
 		}
 	}
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width : 992px) {
+	.container {
+		width: 750px;
+	}
+	.mainMenu ul li a {
+		padding: 30px 17px;
+	}
+	.mainMenu .search form input:focus {
+		transition: none;
+		width: 150px;
+	}
+	.listSlider .w33 {
+		width: 25%;
+		float: left;
+	}
+	.listSlider a div img {
+		padding: 22px 0px;
+	}
+	.listSlider a div span {
+		padding: 45px 0px 0px 0px;
+	}
+	.sidebar {
+	    margin-top: 10px;
+	    width: 160px;
+	}
+	.sidebar ul a li {
+		background: white url("..//images/listImage.png") no-repeat 15px 50%;
+		padding: 16px 30px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-width : 320px) {
+
 }

@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   margin: 0px; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 .clearfix:after {
   content: "";
   display: block;
@@ -568,5 +572,38 @@ hr {
     text-align: center; }
     .copyright p a:hover {
       text-decoration: underline; }
+
+/* Medium Devices, Desktops */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 750px; }
+
+  .mainMenu ul li a {
+    padding: 30px 17px; }
+
+  .mainMenu .search form input:focus {
+    transition: none;
+    width: 150px; }
+
+  .listSlider .w33 {
+    width: 25%;
+    float: left; }
+
+  .listSlider a div img {
+    padding: 22px 0px; }
+
+  .listSlider a div span {
+    padding: 45px 0px 0px 0px; }
+
+  .sidebar {
+    margin-top: 10px;
+    width: 160px; }
+
+  .sidebar ul a li {
+    background: white url("..//images/listImage.png") no-repeat 15px 50%;
+    padding: 16px 30px; } }
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 
 /*# sourceMappingURL=main.css.map */
