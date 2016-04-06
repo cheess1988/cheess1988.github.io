@@ -1,6 +1,6 @@
 $bgHeader: url(..//images/bgHeader.png);
 $bgFooter: #007472 url(..//images/bgFooter.png) repeat-x;
-$bgGradient: linear-gradient(to top, #ffffff 0%, #000000 50%) no-repeat;
+$bgGradient: linear-gradient(to top, #ffffff 0%, #000000 50%);
 $titleColor: linear-gradient(to top, #007472 0%, #008e8b 50%);
 $buttonOrange: linear-gradient(to top, #e5a61f 0%, #fbb829 50%);
 $buttonBlue: linear-gradient(to top, #2792c3 0%, #34abe1 50%);
@@ -142,6 +142,7 @@ img {
 
 .container {
 	width: 962px;
+	min-width: 480px;
 	margin: 0px auto;
 }
 
