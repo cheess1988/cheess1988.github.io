@@ -103,7 +103,7 @@ img {
 
 .container {
   width: 962px;
-  min-width: 470px;
+  min-width: 320px;
   margin: 0px auto; }
 
 .sidebar {
@@ -574,7 +574,6 @@ img {
     .copyright p a:hover {
       text-decoration: underline; }
 
-/* Medium Devices, Desktops */
 @media screen and (max-width: 992px) {
   .container {
     width: 750px;
@@ -651,7 +650,6 @@ img {
 
   .buttonCart a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3) {
     padding: 5px 0px; } }
-/* Small Devices, Tablets */
 @media screen and (max-width: 768px) {
   .bgHeader {
     height: 546px; }
@@ -670,7 +668,7 @@ img {
     right: 70px; }
 
   .login {
-    right: 0;
+    right: 0px;
     top: 10px; }
 
   .mainMenu ul li {
@@ -682,8 +680,9 @@ img {
 
   .mainMenu .search form {
     float: none;
-    top: -91px;
-    right: 0; }
+    top: -90px;
+    right: 0;
+    width: 250px; }
 
   .mainMenu .search form input {
     width: 250px; }
@@ -763,7 +762,109 @@ img {
   .account, .shipping, .links, .socials {
     padding: 0 33px;
     border: none; } }
-/* Extra Small Devices, Phones */
+@media screen and (max-width: 480px) {
+  .bgHeader {
+    height: 473px; }
+
+  .container {
+    width: 320px; }
+
+  .logo {
+    margin-top: 20px; }
+
+  .logo h1 {
+    font-size: 20px; }
+
+  .cart {
+    padding-top: 18px;
+    padding-left: 20px;
+    float: none; }
+
+  .cart a[title="Shopping cart"] {
+    padding: 10px 0 10px 50px;
+    margin-right: 5px; }
+
+  .cart a {
+    font-size: 10px; }
+
+  .topMenu {
+    padding-top: 15px;
+    right: 9px; }
+
+  .topMenu ul li {
+    margin-right: 5px; }
+
+  .topMenu ul li:after {
+    margin-left: 5px; }
+
+  .login {
+    right: 5px;
+    top: 10px; }
+
+  .login a {
+    font-size: 10px;
+    margin-left: 2px; }
+
+  .mainMenu ul {
+    text-align: center; }
+
+  .mainMenu ul li {
+    padding: 15px 0px;
+    border-right: none; }
+
+  .mainMenu ul li a {
+    padding: 20px 1px;
+    font-size: 13px; }
+
+  .mainMenu .search form {
+    float: none;
+    top: -80px;
+    right: -5px;
+    width: 120px; }
+
+  .mainMenu .search form input {
+    width: 120px; }
+
+  .mainMenu .search form input:focus {
+    transition: none;
+    width: 120px; }
+
+  .slider {
+    background-position: 100% 100%; }
+
+  .slider .titleSlider {
+    width: 300px;
+    padding-left: 10px;
+    margin: 0; }
+
+  .slider .titleSlider h2 {
+    font-size: 30px; }
+
+  .slider .titleSlider p {
+    font-size: 12px;
+    width: 290px; }
+
+  .slider .priceSlider {
+    width: 46%; }
+
+  .sidebar {
+    display: none; }
+
+  .deals {
+    margin-top: 5px;
+    width: 320px; }
+
+  .products {
+    width: 290px; }
+
+  .featured {
+    margin-top: 5px; }
+
+  .allProducts div {
+    width: 150px; }
+
+  .allProducts .product {
+    margin: 0 2px 9px; } }
 /* Custom, iPhone Retina */
 
 /*# sourceMappingURL=main.css.map */
