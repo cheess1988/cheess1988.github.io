@@ -864,7 +864,34 @@ img {
     width: 150px; }
 
   .allProducts .product {
-    margin: 0 2px 9px; } }
-/* Custom, iPhone Retina */
+    margin: 0 2px 9px; }
+
+  .news h4 {
+    padding: 0px 50px; }
+
+  .news p {
+    padding: 15px 15px; }
+
+  .news a {
+    left: 56px; }
+
+  .account, .shipping, .links, .socials {
+    margin-left: 15px;
+    margin-right: -22px;
+    padding-right: 10px; }
+
+  .socials ul {
+    width: 50%; }
+
+  .socials ul li {
+    margin-right: 5px; }
+
+  .hide {
+    right: 5px; }
+
+  .copyright p {
+    font-size: 10px;
+    text-align: left;
+    padding: 0px 5px; } }
 
 /*# sourceMappingURL=main.css.map */
