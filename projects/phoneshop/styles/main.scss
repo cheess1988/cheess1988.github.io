@@ -1087,12 +1087,16 @@ img {
 		margin-right: 5px;
 	}
 	.hide {
-		right: 5px;
+		top: 5px;
+		right: 135px;
+	}
+	.copyright {
+		padding: 18px 0;
 	}
 	.copyright p {
 		font-size: 10px;
-		text-align: left;
-		padding: 0px 5px;
+		margin-bottom: -10px;
+		margin-top: 8px;
 	}
 }
 
