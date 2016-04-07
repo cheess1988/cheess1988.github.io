@@ -854,6 +854,18 @@ img {
     margin-top: 5px;
     width: 320px; }
 
+  .dealsPhone .dealsImg {
+    margin: 0 auto; }
+
+  .dealsPhone .dealsImg img {
+    margin: 20px -20px 16px; }
+
+  .dealsPhone .dealsButton {
+    margin: 0 auto; }
+
+  .dealsPhone .dealsButton div {
+    margin: 15px 8px 20px; }
+
   .products {
     width: 290px; }
 
