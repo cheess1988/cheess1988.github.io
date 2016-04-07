@@ -1066,6 +1066,12 @@ img {
 	.allProducts .product {
 		margin: 0 2px 9px;
 	}
+	.allProducts .product div {
+		width: 130px;
+	}
+	.buttonCart a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3), .dealsPhone .dealsButton div a:nth-child(3), .allProducts .product div a:nth-child(3) {
+		padding: 8px 23px;
+	}
 	.news h4 {
 		padding: 0px 50px;
 	}
