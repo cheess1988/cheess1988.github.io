@@ -1,0 +1,763 @@
+@media screen and (max-width: 1024px) {
+  header .wrapper {
+    width: 900px;
+    margin: 0 auto; }
+    header .wrapper .logo {
+      margin-top: 15px;
+      margin-bottom: 20px; }
+      header .wrapper .logo a h1 {
+        font-size: 20px; }
+      header .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 87px;
+        margin-top: -7px; }
+    header .wrapper .mainMenu {
+      margin-top: 20px; }
+      header .wrapper .mainMenu ul li {
+        font-size: 10px; }
+
+  .slider a .arrowLeft:before {
+    top: 150px;
+    padding: 14px 13px 11px 7px; }
+  .slider a .arrowRight:after {
+    top: 150px;
+    padding: 14px 7px 11px 13px; }
+  .slider img {
+    height: 90%; }
+
+  .wrapper {
+    width: 900px;
+    margin: 0 auto; }
+    .wrapper .callBack {
+      width: 370px; }
+      .wrapper .callBack h2 {
+        font-size: 25px;
+        margin-top: 30px; }
+      .wrapper .callBack h3 {
+        font-size: 15px; }
+      .wrapper .callBack form input {
+        width: 245px;
+        height: 44px;
+        padding-left: 60px;
+        margin-top: 25px; }
+      .wrapper .callBack form span {
+        bottom: 42px;
+        right: 140px; }
+      .wrapper .callBack p {
+        font-size: 13px;
+        margin-top: -18px; }
+      .wrapper .callBack button {
+        color: white;
+        font-size: 20px;
+        padding: 15px 54px;
+        margin-bottom: 24px; }
+
+  article .wrapper {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 35px; }
+    article .wrapper h1 {
+      font-size: 25px; }
+    article .wrapper a {
+      right: 30px;
+      bottom: 75px;
+      padding: 15px 40px; }
+
+  .blocks {
+    margin-top: 40px; }
+    .blocks .wrapper {
+      width: 900px;
+      margin: 0 auto; }
+      .blocks .wrapper article {
+        width: 210px;
+        margin-right: 20px;
+        margin-bottom: 60px; }
+        .blocks .wrapper article a {
+          margin-top: 10px;
+          padding: 18px 30px; }
+        .blocks .wrapper article:last-child {
+          margin-top: -10px; }
+
+  .gallery {
+    height: 350px; }
+    .gallery .wrapper {
+      width: 900px;
+      margin: 0 auto; }
+      .gallery .wrapper article h1 {
+        padding-top: 60px; }
+      .gallery .wrapper .left {
+        top: 215px; }
+        .gallery .wrapper .left img {
+          width: 300px; }
+      .gallery .wrapper .center img {
+        width: 400px; }
+      .gallery .wrapper .right {
+        bottom: 200px; }
+        .gallery .wrapper .right img {
+          width: 300px; }
+
+  .economy {
+    margin-top: 130px; }
+    .economy .wrapper {
+      width: 900px;
+      margin: 0 auto; }
+      .economy .wrapper aside.left {
+        width: 190px; }
+      .economy .wrapper aside.center {
+        width: 52%;
+        margin-left: 28px;
+        margin-top: -150px; }
+        .economy .wrapper aside.center article {
+          width: 100px;
+          margin-left: 17px; }
+          .economy .wrapper aside.center article p {
+            margin-left: 25px; }
+          .economy .wrapper aside.center article h3 {
+            font-size: 13px;
+            margin-top: 20px;
+            padding-left: 12px; }
+        .economy .wrapper aside.center h3 {
+          margin-bottom: 20px; }
+      .economy .wrapper aside.right {
+        width: 175px;
+        margin-top: -145px; }
+        .economy .wrapper aside.right p:after {
+          top: 155px;
+          left: 25px; }
+
+  footer .wrapper {
+    width: 900px;
+    margin: 0 auto; }
+    footer .wrapper .logo {
+      margin-top: 25px;
+      margin-bottom: 20px; }
+      footer .wrapper .logo a h1 {
+        font-size: 20px; }
+      footer .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 87px;
+        margin-top: -7px; }
+      footer .wrapper .logo p {
+        width: 200px; }
+    footer .wrapper .footerMenu {
+      margin-top: 35px;
+      margin-left: 30px; }
+      footer .wrapper .footerMenu h4 {
+        font-size: 15px; }
+      footer .wrapper .footerMenu ul {
+        margin-top: 30px;
+        margin-left: 30px; }
+    footer .wrapper .contacts {
+      margin-top: 35px;
+      margin-left: 100px; }
+      footer .wrapper .contacts h4 {
+        font-size: 15px;
+        line-height: 24px; }
+      footer .wrapper .contacts p {
+        margin-top: 30px; }
+  footer .socials .wrapper {
+    width: 900px;
+    margin: 0 auto; }
+    footer .socials .wrapper ul li {
+      padding: 9px 13px 7px; } }
+@media screen and (max-width: 768px) {
+  header .wrapper {
+    width: 650px;
+    margin: 0 auto; }
+    header .wrapper .logo {
+      margin-top: 15px;
+      margin-bottom: 20px; }
+      header .wrapper .logo a h1 {
+        font-size: 20px; }
+      header .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 87px;
+        margin-top: -7px; }
+    header .wrapper .mainMenu {
+      margin-top: 20px; }
+      header .wrapper .mainMenu ul li {
+        font-size: 10px;
+        margin-left: 3px; }
+        header .wrapper .mainMenu ul li:last-child {
+          margin-left: 20px; }
+        header .wrapper .mainMenu ul li a {
+          padding: 5px; }
+
+  .slider a .arrowLeft:before {
+    top: 100px;
+    padding: 10px 9px 7px 3px; }
+  .slider a .arrowRight:after {
+    top: 100px;
+    padding: 10px 3px 7px 9px; }
+  .slider img {
+    height: 90%; }
+
+  .wrapper {
+    width: 650px;
+    margin: 0 auto; }
+    .wrapper .callBack {
+      width: 300px; }
+      .wrapper .callBack h2 {
+        font-size: 20px;
+        margin-top: 20px; }
+      .wrapper .callBack h3 {
+        font-size: 12px; }
+      .wrapper .callBack form input {
+        width: 180px;
+        height: 30px;
+        font-size: 25px;
+        padding-left: 40px;
+        margin-top: 20px;
+        margin-left: 4px; }
+      .wrapper .callBack form span {
+        font-size: 25px;
+        bottom: 32px;
+        right: 105px; }
+      .wrapper .callBack p {
+        font-size: 13px;
+        margin-top: -25px; }
+      .wrapper .callBack button {
+        font-size: 15px;
+        padding: 10px 40px;
+        margin-bottom: 20px; }
+
+  article .wrapper {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 35px; }
+    article .wrapper h1 {
+      font-size: 20px;
+      width: 350px; }
+    article .wrapper p {
+      font-size: 10px; }
+    article .wrapper a {
+      right: 30px;
+      bottom: 80px;
+      padding: 15px 20px; }
+
+  .blocks {
+    margin-top: 40px; }
+    .blocks .wrapper {
+      width: 650px;
+      margin: 0 auto; }
+      .blocks .wrapper article {
+        width: 300px;
+        margin-right: 20px;
+        margin-bottom: 60px; }
+        .blocks .wrapper article a {
+          margin-top: 25px;
+          padding: 18px 30px; }
+        .blocks .wrapper article:nth-child(2) {
+          margin-top: -10px;
+          float: right;
+          margin-right: 0; }
+        .blocks .wrapper article:nth-child(3) {
+          margin-top: -10px; }
+          .blocks .wrapper article:nth-child(3) a {
+            margin-top: 46px; }
+
+  .gallery {
+    height: 300px; }
+    .gallery .wrapper {
+      width: 650px;
+      margin: 0 auto; }
+      .gallery .wrapper article h1 {
+        padding-top: 50px;
+        font-size: 30px; }
+      .gallery .wrapper .left {
+        top: 206px; }
+        .gallery .wrapper .left img {
+          width: 200px; }
+      .gallery .wrapper .center img {
+        width: 300px; }
+      .gallery .wrapper .right {
+        bottom: 135px; }
+        .gallery .wrapper .right img {
+          width: 200px; }
+
+  .economy {
+    margin-top: 100px; }
+    .economy .wrapper {
+      width: 650px;
+      margin: 0 auto; }
+      .economy .wrapper aside.left {
+        float: none;
+        width: 190px; }
+      .economy .wrapper aside.center {
+        float: right;
+        width: 60%;
+        margin-top: -210px; }
+        .economy .wrapper aside.center article {
+          width: 100px;
+          margin-left: 55px; }
+          .economy .wrapper aside.center article p {
+            margin-left: 25px; }
+          .economy .wrapper aside.center article h3 {
+            font-size: 11px;
+            margin-top: 20px;
+            padding-left: 21px; }
+        .economy .wrapper aside.center h3 {
+          margin-bottom: 0px; }
+      .economy .wrapper aside.right {
+        float: none;
+        width: 175px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .economy .wrapper aside.right p {
+          margin-top: 10px; }
+          .economy .wrapper aside.right p:after {
+            top: 155px;
+            left: 25px; }
+
+  footer .wrapper {
+    width: 650px;
+    margin: 0 auto; }
+    footer .wrapper .logo {
+      margin-top: 25px;
+      margin-bottom: 20px; }
+      footer .wrapper .logo a h1 {
+        font-size: 20px; }
+      footer .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 87px;
+        margin-top: -7px; }
+      footer .wrapper .logo p {
+        width: 133px; }
+    footer .wrapper .footerMenu {
+      float: left;
+      margin-top: 40px;
+      margin-left: 0px; }
+      footer .wrapper .footerMenu h4 {
+        font-size: 15px; }
+      footer .wrapper .footerMenu ul {
+        margin-top: 30px;
+        margin-left: 30px; }
+    footer .wrapper .contacts {
+      float: right;
+      margin-top: -143px;
+      margin-left: 100px; }
+      footer .wrapper .contacts h4 {
+        font-size: 15px;
+        line-height: 24px; }
+      footer .wrapper .contacts p {
+        margin-top: 24px; }
+  footer .socials .wrapper {
+    width: 650px;
+    margin: 0 auto; }
+    footer .socials .wrapper ul li {
+      padding: 9px 13px 7px; } }
+@media screen and (max-width: 480px) {
+  header .wrapper {
+    width: 400px;
+    margin: 0 auto; }
+    header .wrapper .logo {
+      margin-top: 10px;
+      margin-bottom: 0px; }
+      header .wrapper .logo a h1 {
+        font-size: 20px; }
+      header .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 87px;
+        margin-top: -7px; }
+    header .wrapper .mainMenu {
+      margin-top: 0;
+      margin-bottom: 20px; }
+      header .wrapper .mainMenu ul li {
+        font-size: 8px;
+        margin-left: 0px; }
+        header .wrapper .mainMenu ul li:last-child {
+          margin-left: 20px; }
+        header .wrapper .mainMenu ul li a {
+          padding: 5px; }
+
+  .slider a .arrowLeft:before {
+    top: 50px;
+    background: none;
+    box-shadow: none; }
+  .slider a .arrowRight:after {
+    top: 50px;
+    background: none;
+    box-shadow: none; }
+  .slider img {
+    height: 90%; }
+
+  .wrapper {
+    width: 400px;
+    margin: 0 auto; }
+    .wrapper .callBack {
+      width: 150px; }
+      .wrapper .callBack h2 {
+        font-size: 10px;
+        margin-top: 10px; }
+      .wrapper .callBack h3 {
+        font-size: 6px; }
+      .wrapper .callBack form input {
+        width: 100px;
+        height: 20px;
+        font-size: 15px;
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-left: 4px; }
+      .wrapper .callBack form span {
+        font-size: 15px;
+        bottom: 21px;
+        right: 67px; }
+      .wrapper .callBack p {
+        font-size: 7px;
+        margin-top: -15px; }
+      .wrapper .callBack button {
+        font-size: 10px;
+        padding: 10px 10px;
+        margin-bottom: 11px;
+        margin-top: 10px; }
+
+  article .wrapper {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 35px; }
+    article .wrapper h1 {
+      font-size: 20px;
+      padding-top: 20px; }
+    article .wrapper p {
+      width: 40%;
+      padding-bottom: 20px; }
+    article .wrapper a {
+      right: 30px;
+      bottom: 75px;
+      padding: 10px 30px; }
+
+  .blocks {
+    margin-top: 40px; }
+    .blocks .wrapper {
+      width: 400px;
+      margin: 0 auto; }
+      .blocks .wrapper article {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 40px; }
+        .blocks .wrapper article a {
+          margin-top: 25px;
+          padding: 18px 30px; }
+        .blocks .wrapper article:nth-child(2) {
+          margin-top: -10px;
+          float: left;
+          margin-right: 0; }
+        .blocks .wrapper article:nth-child(3) {
+          margin-top: -10px; }
+          .blocks .wrapper article:nth-child(3) a {
+            margin-top: 46px; }
+        .blocks .wrapper article:nth-child(4) {
+          float: left; }
+
+  .gallery {
+    height: 300px; }
+    .gallery .wrapper {
+      width: 400px;
+      margin: 0 auto; }
+      .gallery .wrapper article h1 {
+        padding-top: 50px;
+        font-size: 30px; }
+      .gallery .wrapper .left {
+        top: 230px; }
+        .gallery .wrapper .left img {
+          width: 100px; }
+      .gallery .wrapper .center img {
+        width: 200px; }
+      .gallery .wrapper .right {
+        bottom: 60px; }
+        .gallery .wrapper .right img {
+          width: 100px; }
+
+  .economy {
+    margin-top: 100px; }
+    .economy .wrapper {
+      width: 400px;
+      margin: 0 auto; }
+      .economy .wrapper aside.left {
+        width: 190px; }
+        .economy .wrapper aside.left h4 {
+          margin-bottom: 20px; }
+      .economy .wrapper aside.center {
+        float: right;
+        width: 50%;
+        margin-top: -195px;
+        margin-bottom: 20px; }
+        .economy .wrapper aside.center article {
+          width: 100px;
+          margin-left: 40px; }
+          .economy .wrapper aside.center article p {
+            margin-left: 25px; }
+          .economy .wrapper aside.center article h3 {
+            font-size: 11px;
+            margin-top: 20px;
+            padding-left: 21px; }
+        .economy .wrapper aside.center h3 {
+          margin-bottom: 0px; }
+      .economy .wrapper aside.right {
+        float: none;
+        width: 190px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .economy .wrapper aside.right p {
+          margin-top: 10px; }
+          .economy .wrapper aside.right p:after {
+            top: 155px;
+            left: 25px; }
+
+  footer .wrapper {
+    width: 400px;
+    margin: 0 auto; }
+    footer .wrapper .logo {
+      width: 200px;
+      margin-top: 25px;
+      margin-bottom: 20px; }
+      footer .wrapper .logo a h1 {
+        font-size: 20px; }
+      footer .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 87px;
+        margin-top: -7px; }
+      footer .wrapper .logo p {
+        width: 133px; }
+    footer .wrapper .footerMenu {
+      width: 200px;
+      margin-top: 40px;
+      margin-left: 0px; }
+      footer .wrapper .footerMenu h4 {
+        font-size: 15px; }
+      footer .wrapper .footerMenu ul {
+        margin-top: 30px;
+        margin-left: 30px; }
+    footer .wrapper .contacts {
+      float: left;
+      margin-top: 0px;
+      margin-left: 100px; }
+      footer .wrapper .contacts h4 {
+        font-size: 15px;
+        line-height: 24px; }
+      footer .wrapper .contacts p {
+        margin-top: 24px; }
+  footer .socials .wrapper {
+    width: 400px;
+    margin: 0 auto; }
+    footer .socials .wrapper ul li {
+      padding: 9px 10px 7px; } }
+@media screen and (max-width: 320px) {
+  header .wrapper {
+    width: 270px;
+    margin: 0 auto; }
+    header .wrapper .logo {
+      margin-top: 30px;
+      margin-bottom: 0px; }
+      header .wrapper .logo a h1 {
+        font-size: 20px; }
+      header .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 80px;
+        margin-top: -7px; }
+    header .wrapper .mainMenu {
+      margin-top: 0;
+      margin-bottom: 20px; }
+      header .wrapper .mainMenu ul li {
+        text-align: right;
+        display: block;
+        font-size: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+        header .wrapper .mainMenu ul li:last-child {
+          margin-left: 20px; }
+        header .wrapper .mainMenu ul li a:hover, header .wrapper .mainMenu ul li a.active {
+          text-decoration: underline;
+          background: none;
+          box-shadow: none;
+          border-radius: 0px; }
+        header .wrapper .mainMenu ul li:last-child {
+          margin-left: 0px; }
+          header .wrapper .mainMenu ul li:last-child a {
+            background: none;
+            box-shadow: none;
+            padding: 0; }
+
+  .slider a .arrowLeft:before {
+    top: 20px;
+    background: none;
+    box-shadow: none; }
+  .slider a .arrowRight:after {
+    top: 20px;
+    background: none;
+    box-shadow: none; }
+  .slider img {
+    height: 90%; }
+  .slider .toggleSlider i {
+    width: 30px; }
+
+  .wrapper {
+    width: 270px;
+    margin: 0 auto; }
+    .wrapper .callBack {
+      position: static;
+      margin-top: 120px;
+      float: none;
+      width: 270px; }
+      .wrapper .callBack h2 {
+        font-size: 15px;
+        margin-top: 10px; }
+      .wrapper .callBack h3 {
+        font-size: 10px; }
+      .wrapper .callBack form input {
+        width: 190px;
+        height: 20px;
+        font-size: 15px;
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-left: 4px; }
+      .wrapper .callBack form span {
+        font-size: 15px;
+        bottom: 21px;
+        right: 110px; }
+      .wrapper .callBack p {
+        font-size: 10px;
+        margin-top: -15px; }
+      .wrapper .callBack button {
+        font-size: 10px;
+        padding: 10px 40px;
+        margin-bottom: 11px;
+        margin-top: 10px; }
+
+  article .wrapper {
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 15px; }
+    article .wrapper h1 {
+      width: 100%;
+      font-size: 15px;
+      padding: 10px 10px 5px 10px; }
+    article .wrapper p {
+      width: 100%;
+      padding: 0px 10px 20px 10px; }
+    article .wrapper a {
+      right: 85px;
+      bottom: 15px;
+      padding: 10px 10px;
+      font-size: 14px; }
+
+  .blocks {
+    margin-top: 40px; }
+    .blocks .wrapper {
+      width: 270px;
+      margin: 0 auto; }
+      .blocks .wrapper article {
+        width: 270px;
+        margin-left: 0px;
+        margin-bottom: 40px; }
+        .blocks .wrapper article a {
+          margin-top: 25px;
+          padding: 18px 30px; }
+        .blocks .wrapper article:nth-child(4) {
+          float: left;
+          margin-top: 10px; }
+
+  .gallery {
+    height: 320px; }
+    .gallery .wrapper {
+      width: 270px;
+      margin: 0 auto; }
+      .gallery .wrapper article h1 {
+        padding-top: 50px;
+        font-size: 30px; }
+      .gallery .wrapper .left {
+        top: 230px; }
+        .gallery .wrapper .left img {
+          width: 100px; }
+      .gallery .wrapper .center {
+        top: 50px; }
+        .gallery .wrapper .center img {
+          width: 150px; }
+      .gallery .wrapper .right {
+        bottom: 90px; }
+        .gallery .wrapper .right img {
+          width: 100px; }
+
+  .economy {
+    margin-top: 100px; }
+    .economy .wrapper {
+      width: 270px;
+      margin: 0 auto; }
+      .economy .wrapper aside.left {
+        width: 270px;
+        margin-left: 50px; }
+        .economy .wrapper aside.left h4 {
+          margin-bottom: 10px; }
+      .economy .wrapper aside.center {
+        float: left;
+        width: 270px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px; }
+        .economy .wrapper aside.center article {
+          width: 100px;
+          margin-left: 20px; }
+          .economy .wrapper aside.center article p {
+            margin-left: 25px; }
+          .economy .wrapper aside.center article h3 {
+            font-size: 11px;
+            margin-top: 20px;
+            padding-left: 21px; }
+        .economy .wrapper aside.center h3 {
+          margin-bottom: 0px; }
+      .economy .wrapper aside.right {
+        float: none;
+        width: 270px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .economy .wrapper aside.right h4 {
+          text-align: center; }
+        .economy .wrapper aside.right p {
+          text-align: center;
+          margin-top: 10px; }
+          .economy .wrapper aside.right p:after {
+            top: 105px;
+            left: 60px; }
+        .economy .wrapper aside.right a {
+          margin-left: 90px; }
+
+  footer .wrapper {
+    width: 270px;
+    margin: 0 auto; }
+    footer .wrapper .logo {
+      margin-top: 25px;
+      margin-bottom: 0px; }
+      footer .wrapper .logo a h1 {
+        font-size: 20px; }
+      footer .wrapper .logo a p {
+        font-size: 17px;
+        margin-left: 80px;
+        margin-top: -7px; }
+      footer .wrapper .logo p {
+        margin-top: 0;
+        width: 270px; }
+    footer .wrapper .footerMenu {
+      width: 270px;
+      margin-top: 10px;
+      margin-left: 0px; }
+      footer .wrapper .footerMenu h4 {
+        font-size: 15px; }
+      footer .wrapper .footerMenu ul {
+        margin-top: 10px;
+        margin-left: 20px; }
+    footer .wrapper .contacts {
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px; }
+      footer .wrapper .contacts h4 {
+        font-size: 15px;
+        line-height: 24px; }
+      footer .wrapper .contacts p {
+        margin-top: 24px; }
+  footer .socials .wrapper {
+    width: 270px;
+    margin: 0 auto; }
+    footer .socials .wrapper ul li {
+      padding: 9px 10px 7px; } }
+
+/*# sourceMappingURL=media.css.map */
