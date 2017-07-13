@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>cabins</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="9.45454545" height="13" rx="2"></rect>
+        <ellipse id="path-2" cx="4.63636364" cy="4.67857143" rx="2.36363636" ry="2.32142857"></ellipse>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yacht-in-catalog" transform="translate(-438.000000, -142.000000)">
+            <g id="cabins" transform="translate(438.000000, 142.000000)">
+                <g id="Rectangle-3-Copy">
+                    <use fill="#E2E9F4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#62738D" stroke-width="1" x="0.5" y="0.5" width="8.45454545" height="12" rx="2"></rect>
+                </g>
+                <g id="Oval-5">
+                    <use fill="#E2E9F4" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <ellipse stroke="#62738D" stroke-width="1" cx="4.63636364" cy="4.67857143" rx="1.86363636" ry="1.82142857"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

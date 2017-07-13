@@ -1,0 +1,647 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+@media (min-width: 1445px) {
+	.container {
+		width: 1445px;
+	}
+}
+.nopadding {
+	padding: 0;
+	margin: 0;
+}
+:active, :hover, :focus {
+	outline: 0 !important;
+	outline-offset: 0 !important;
+}
+.dropdown-menu {
+	padding: 0;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	width: 100%;
+}
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+	right: 10px;
+}
+
+header {
+	border-bottom: 1px solid #B9CAE6;
+}
+header .navbar-brand {
+	padding: 10px 15px;
+}
+header .navbar-default {
+	background: #fff;
+}
+header .nav>li {
+	font-size: 14px;
+}
+header .nav>li:hover a {
+	text-decoration: underline;
+}
+.catalog .sort .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	width: 175px;
+}
+.catalog .sort {
+	background: #E2E9F5;
+	padding: 10px 0;
+	color: #323C47;
+}
+.catalog .sort .result {
+	margin-top: 10px;
+}
+.catalog .sort button {
+	color: #34495E;
+	margin-left: 10px;
+	background: #fff;
+	border-color: #ddd;
+	padding: 10px 12px;
+}
+.catalog .sort button .chevron {
+	display: inline-block;
+	width: 10px;
+	height: 6px;
+	margin-left: -15px;
+	background: url(../img/chevron.svg) no-repeat center center;
+}
+.catalog .dropdown-menu {
+	border: none;
+	box-shadow: 0 2px 20px 5px #E4E6E9;
+	top: 97%;
+}
+.catalog .dropdown-menu li:after {
+	content: "";
+	display: block;
+	margin: 0 0 0 15px;;
+	background-color: #D8D8D8;
+	height: 1px;
+	width: 90%;
+}
+.catalog .dropdown-menu li:last-child:after {
+	display: none;
+
+}
+.catalog .dropdown-menu a {
+	padding: 6px 42px 6px 12px;
+	font-size: 14px;
+}
+.catalog .dropdown-menu .dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.catalog .filter .builtIn label:hover {
+	background: #EFF7FF;
+}
+.catalog .itemListBoats {
+	border: 1px solid #EBF1FA;
+	margin-top: 10px;
+}
+.catalog .itemListBoats .image img {
+	width: 100%;
+}
+.catalog .itemListBoats .info,
+.catalog .itemListBoats .price {
+	padding: 30px 0 0 15px;
+}
+.catalog .itemListBoats .rank span {
+	font-size: 12px;
+	color: #F0C165;
+}
+.catalog .itemListBoats .rank .reviews {
+	text-transform: uppercase;
+	color: #323C47;
+	margin-left: 5px;
+}
+.catalog .itemListBoats .title {
+	color: #323C47;
+	font-size: 22px;
+	margin-bottom: 19px;
+}
+.catalog .itemListBoats .options {
+	color: #323C47;
+}
+.catalog .itemListBoats .options li {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.catalog .itemListBoats .options li:before {
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+}
+.catalog .itemListBoats .options li.anchor:before {
+	background: url(../img/boat-anchor.svg) no-repeat left center;
+	width: 12px;
+	height: 12px;
+}
+.catalog .itemListBoats .options li.sailing:before {
+	background: url(../img/sailing.svg) no-repeat left center;
+	width: 10px;
+	height: 15px;
+}
+.catalog .itemListBoats .options li.calendar:before {
+	background: url(../img/calendar.svg) no-repeat left center;
+	width: 15px;
+	height: 12px;
+}
+.catalog .itemListBoats .options li.length:before {
+	background: url(../img/length.svg) no-repeat left center;
+	width: 16px;
+	height: 11px;
+}
+.catalog .itemListBoats .options li.guests:before {
+	background: url(../img/guests.svg) no-repeat left center;
+	width: 10px;
+	height: 14px;
+}
+.catalog .itemListBoats .options li.cabins:before {
+	background: url(../img/cabins.svg) no-repeat left center;
+	width: 10px;
+	height: 13px;
+}
+.catalog .itemListBoats .options li.beds:before {
+	background: url(../img/beds.svg) no-repeat left center;
+	width: 19px;
+	height: 11px;
+}
+.catalog .itemListBoats .price .perDay,
+.catalog .itemListBoats .price .perWeek {
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.catalog .itemListBoats .price .perDay span,
+.catalog .itemListBoats .price .perWeek span {
+	display: block;
+	color: #323C47;
+	font-size: 20px;
+	line-height: 18px;
+}
+.catalog .filter {
+	box-shadow: 0 0 2px #B9CAE6;
+	padding: 18px;
+	margin-top: 10px;
+}
+.catalog .filter button {
+	width: 100%;
+	text-align: left;
+	background: #fff;
+	border-color: #ddd;
+	padding: 10px 12px;
+	margin-bottom: 25px;
+}
+.catalog .filter i.location:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 17px;
+	margin-right: 5px;
+	background: url(../img/location.svg) no-repeat left center;
+}
+.catalog .filter i.anchor:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	margin-right: 5px;
+	background: url(../img/anchor.svg) no-repeat left center;
+}
+.catalog .filter button .calendar {
+	display: inline-block;
+	width: 20px;
+	height: 14px;
+	margin-right: 5px;
+	background: url(../img/calendar2.svg) no-repeat left center;
+}
+.catalog .filter i.guests:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 19px;
+	margin-right: 5px;
+	background: url(../img/guests2.svg) no-repeat left center;
+}
+.catalog .filter button .chevron {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: -15px;
+	background: url(../img/chevron.svg) no-repeat center 3px;
+}
+.catalog .filter .calendar button .chevron {
+	display: inline-block;
+	width: 10px;
+	height: 8px;
+	margin: 6px 0;
+	background: url(../img/chevron.svg) no-repeat;
+	float: right;
+}
+.catalog .filter .dropdown-menu {
+	width: 100%;
+	top: 63%;
+	border-radius: 0 0 4px 4px;
+}
+.catalog .filter .dropdown-menu a {
+	padding: 8px 15px;
+}
+.catalog .filter .dropdown input {
+	width: 60px;
+	border: none;
+	cursor: pointer;
+}
+.catalog .filter #date_range,
+.catalog .filter #date_range2 {
+	padding: 20px;
+}
+.catalog .filter .ui-datepicker-title {
+	float: left;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.catalog .filter .ui-datepicker-prev,
+.catalog .filter .ui-datepicker-next {
+	background: #F7F8FC;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.catalog .filter .ui-datepicker-prev:hover,
+.catalog .filter .ui-datepicker-next:hover {
+	background: #EFF7FF;
+}
+.catalog .filter .ui-datepicker-prev {
+	position: absolute;
+	top: 20px;
+	right: 60px;
+}
+.catalog .filter .ui-datepicker-next {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.catalog .filter .ui-datepicker-prev span,
+.catalog .filter .ui-datepicker-next span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	text-indent: -99999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.catalog .filter .ui-datepicker-prev span {
+	background: url(../img/arrowLeft.svg) no-repeat 1px 1px;
+}
+.catalog .filter .ui-datepicker-next span {
+	background: url(../img/arrowRight.svg) no-repeat 3px 1px;
+}
+.catalog .filter .dropdown-menu .ui-datepicker-header a {
+	padding: 4px 7px;
+}
+.catalog .filter #date_range .ui-datepicker-calendar th,
+.catalog .filter #date_range .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 4px;
+}
+.catalog .filter #date_range .ui-datepicker-calendar .ui-state-highlight {
+	background: #F7F8FC;
+	border-radius: 50%;
+}
+.catalog .filter #date_range .ui-datepicker-calendar a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	padding: 6px;
+}
+.catalog .filter #date_range .ui-datepicker .selected-start:not(.selected-end) a,
+.catalog .filter #date_range .ui-datepicker .selected-end:not(.selected-start) a {
+	background: #71A2EA;
+	border-radius: 50%;
+	color: #fff;
+}
+.catalog .filter #date_range .ui-datepicker-calendar .ui-state-active {
+	background: #EFF7FF;
+}
+.catalog .filter .btn-group .btn-default.active,
+.catalog .filter .btn-group .btn-default:active,
+.catalog .filter .btn-group .open>.dropdown-toggle.btn-default,
+.catalog .filter .btn-group .btn-default:hover {
+	background: #EFF7FF;
+	border-color: #ddd;
+}
+.catalog .filter .btn-group .btn-default {
+	padding: 5px 5px;
+	border-color: #ddd;
+}
+.catalog .filter .btn-group button.btn-default {
+	padding: 10px 10px;
+	border-color: #ddd;
+}
+.catalog .filter .btn-group .sail:before,
+.catalog .filter .btn-group .motor:before,
+.catalog .filter .btn-group .catamaran:before,
+.catalog .filter .btn-group .mega:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 30px;
+}
+.catalog .filter .btn-group .sail:before {
+	background: url(../img/sail.svg) no-repeat center top;
+}
+.catalog .filter .btn-group .motor:before {
+	background: url(../img/motor.svg) no-repeat center top;
+}
+.catalog .filter .btn-group .catamaran:before {
+	background: url(../img/catamaran.svg) no-repeat center top;
+}
+.catalog .filter .btn-group .mega:before {
+	background: url(../img/mega.svg) no-repeat center top;
+}
+.catalog .filter .range {
+	margin: 25px 0;
+	padding: 20px 10px 30px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.catalog .filter .range .price {
+	margin-bottom: 30px;
+}
+.catalog .filter .range .btn-group {
+	float: right;
+}
+.catalog .filter .range .btn-group .btn-default {
+	width: 75px;
+	background: #EFF7FF;
+}
+.catalog .filter .range .btn-group .btn-default.active,
+.catalog .filter .range .btn-group .btn-default:active {
+	background: #71A2EA;
+	color: #fff;
+}
+
+.catalog .filter .range .ui-slider {
+	position: relative;
+}
+.catalog .filter .range .ui-slider .ui-slider-handle {
+	position: absolute;
+	top: -8px;
+	z-index: 2;
+	width: 20px;
+	height: 20px;
+	background: #C8DCF9;
+	border: 1px solid #71A2EA;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	border: 0;
+	overflow: hidden;
+}
+.catalog .filter .range .ui-widget-content {
+	background: #ddd;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 90%;
+	margin: 0 5px;
+}
+.catalog .filter .range .ui-widget-header {
+	border: 1px solid #71A2EA;
+}
+.catalog .filter .range .ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.catalog .filter .range .ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.catalog .filter .range #minCost,
+.catalog .filter .range #maxCost {
+	width: 66px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 5px 0 5px 17px;
+}
+.catalog .filter .range label[for="minCost"]:before,
+.catalog .filter .range label[for="maxCost"]:before {
+	content: "€";
+	display: inline-block;
+	width: 10px;
+	height: 18px;
+	position: relative;
+	top: 0;
+	left: 20px;
+	font-weight: 400;
+}
+.catalog .filter .range label #minCost,
+.catalog .filter .range label #maxCost {
+	font-size: 16px;
+	font-weight: 400;
+}
+.catalog .filter .range label[for="maxCost"] {
+	float: right;
+}
+.catalog .filter .captain input {
+	display: none;
+}
+.catalog .filter .captain {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+.catalog .filter .captain label {
+	width: 34px;
+	height: 15px;
+	float: right;
+	border-radius: 100px;
+	cursor: pointer;
+	transition: .3s ease;
+	background: #EAF1FC;
+	margin-top: 3px;
+	position: relative;
+	box-sizing: border-box;
+}
+.catalog .filter .captain input[type=checkbox]:checked + label {
+	background: #EAF1FC;
+}
+.catalog .filter .captain input[type=checkbox]:checked + label:before {
+	left: 15px;
+	background: #71A2EA;
+}
+.catalog .filter .captain label:before {
+	transition: .3s ease;
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: #C8DCF9;
+	border: 1px solid #71A2EA;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: -2px;
+	box-sizing: border-box;
+}
+.catalog .filter .cabins {
+	margin-bottom: 20px;
+}
+.catalog .filter .cabins .btn-default {
+	height: 45px;
+}
+.catalog .filter .cabins .btn-default:not(:last-child),
+.catalog .filter .typeBoats .btn-default:not(:last-child),
+.catalog .filter .lenght .btn-default:not(:last-child) {
+	border-right: none;
+}
+.catalog .filter .lenght {
+	margin-bottom: 25px;
+}
+.catalog .filter .lenght .btn-default {
+	height: 54px;
+}
+.catalog .filter .lenght .btn-default span {
+	display: block;
+	font-size: 12px;
+	line-height: 2px;
+	color: rgba(52,73,94,.4);
+}
+.catalog .filter .builtIn .bootstrap-select > .dropdown-toggle.bs-placeholder {
+	color: #333;
+}
+.catalog .filter .builtIn input {
+	width: auto;
+}
+.catalog .filter .builtIn input[type="checkbox"],
+.catalog .filter .moreFilters input[type="checkbox"] {
+	display: none;
+}
+.catalog .filter .builtIn .glyphicon-ok:before {
+	content: "";
+	display: inline-block;
+	width: 19px;
+	height: 14px;
+	margin-right: 10px;
+	background: url(../img/checked.svg) left top no-repeat;
+	cursor: pointer;
+}
+.catalog .filter .builtIn label {
+	width: 100%;
+	padding: 12px;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+.catalog .filter .moreFilters a,
+.btnFilter a {
+	display: block;
+	width: 180px;
+	color: #71A2EA;
+	border: 1px solid #319BF5;
+	border-radius: 4px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.catalog .filter .moreFilters a:hover,
+.btnFilter a:hover {
+	background: #71A2EA;
+	color: #fff;
+}
+.catalog .filter .moreFilters ul {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	height: 100%;
+	list-style: none;
+	padding: 0;
+	margin-top: 25px;
+}
+.catalog .filter .moreFilters ul label {
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+}
+.catalog .filter .moreFilters input[type="checkbox"] + label span {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	vertical-align: middle;
+	background: none;
+}
+.catalog .filter .moreFilters input[type="checkbox"]:checked + label span {
+	background: url(../img/checked.svg) center center no-repeat;
+	background-size: contain;
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1444px) {
+	.catalog .filter .calendar .dropdown-menu {
+		width: 310px;
+		left: inherit;
+		right: 0;
+	}
+	.catalog .filter .typeBoats label {
+		font-size: 11px;
+	}
+	.catalog .filter .range .btn-group .btn-default {
+		width: 60px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.catalog .filter .calendar .dropdown-menu {
+		width: 310px;
+		left: inherit;
+		right: 0;
+	}
+	.catalog .filter .typeBoats label {
+		font-size: 11px;
+	}
+	.catalog .filter .range .btn-group .btn-default {
+		width: 60px;
+	}
+	.catalog .itemListBoats .info,
+	.catalog .itemListBoats .price {
+		padding: 15px 0 0 15px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.catalog .itemListBoats .price ul {
+		float: right;
+	}
+.catalog .itemListBoats .price {
+		padding: 0 15px 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.catalog .sort .result {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.btnFilter a {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.catalog .filter .calendar .dropdown-menu {
+		width: 100%;
+	}
+	.catalog .filter #date_range {
+		padding: 15px;
+	}
+	.catalog .filter #date_range .ui-datepicker-calendar th,
+	.catalog .filter #date_range .ui-datepicker-calendar td {
+		padding: 0;
+	}
+	.catalog .filter #date_range .ui-datepicker-calendar {
+		width: 100%;
+	}
+}
