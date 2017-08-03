@@ -78,18 +78,13 @@ a:hover, a:focus {
     font-size: 34px; } }
 @media screen and (max-width: 1050px) {
   .links {
-    left: 50%; }
-
-  .links h1 {
-    font-size: 50px; }
-
-  .links h1 + p {
-    font-size: 31px; }
+    left: 55%; } }
+@media screen and (max-width: 950px) {
+  .links {
+    top: 5%;
+    left: 45%; }
 
   .links h2 {
-    font-size: 43px; }
-
-  .links a {
-    font-size: 34px; } }
+    margin: 50px 0 10px; } }
 
 /*# sourceMappingURL=cooking.css.map */
