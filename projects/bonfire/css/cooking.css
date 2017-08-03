@@ -63,3 +63,9 @@ a:hover, a:focus {
 .links a:hover {
   color: #fff;
   text-decoration: underline; }
+
+@media screen and (width: 1600px) {
+  h1 {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=cooking.css.map */
