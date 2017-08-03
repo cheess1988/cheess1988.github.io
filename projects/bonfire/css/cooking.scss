@@ -76,7 +76,7 @@ a:hover, a:focus {
  	text-decoration: underline;
  }
 
- @media screen and (max-width: 1600px) {
+ @media screen and (max-width: 1650px) {
 	.links h1 {
 		font-size: 50px;
 	}
@@ -90,17 +90,20 @@ a:hover, a:focus {
 		font-size: 34px;
 	}
 }
-//  @media screen and (max-width: 1200px) {
-// 	.links h1 {
-// 		font-size: 50px;
-// 	}
-// 	.links h1 + p {
-// 		font-size: 31px;
-// 	}
-// 	.links h2 {
-// 		font-size: 43px;
-// 	}
-// 	.links a {
-// 		font-size: 34px;
-// 	}
-// }
+ @media screen and (max-width: 1050px) {
+ 	.links {
+		left: 50%;
+	}
+	.links h1 {
+		font-size: 50px;
+	}
+	.links h1 + p {
+		font-size: 31px;
+	}
+	.links h2 {
+		font-size: 43px;
+	}
+	.links a {
+		font-size: 34px;
+	}
+}
