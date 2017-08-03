@@ -76,8 +76,8 @@ a:hover, a:focus {
  	text-decoration: underline;
  }
 
- @media screen and (width: 1600px) {
- 	h1 {
+ @media screen and (max-width: 1600px) {
+ .links h1 {
  		font-size: 12px;
  	}
  }
