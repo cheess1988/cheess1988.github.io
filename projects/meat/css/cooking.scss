@@ -1,0 +1,43 @@
+
+body {
+	overflow: hidden;
+	background: #5f7b48;
+}
+a {
+	font-weight: 600;
+	color: #adc53b;
+}
+a:hover, a:focus {
+	color: #fff;
+}
+.Background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.Background::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), transparent 50%, rgba(0, 0, 0, 0.5));
+}
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0;
+	bottom: 10px;
+	position: absolute;
+	left: 50%;
+}
+
+@media screen and (max-width: 600px) {
+.Background::after {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent 80%);
+}
+}
